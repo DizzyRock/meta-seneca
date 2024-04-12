@@ -6,7 +6,7 @@
 #include <linux/i2c-dev.h>
 #include <stdint.h>
 
-#define I2C_DEVICE "/dev/i2c-2"
+#define I2C_DEVICE "/dev/i2c-5"
 #define GAMEPAD_ADDR 0x50
 #define BUTTON_MASK 0b011000111
 #define JOYSTICK_X_CHANNEL 14
