@@ -17,8 +17,7 @@ IMAGE_INSTALL:append = " \
     usbinit \
     i2c-tools \
     libgpiod \
-    evtest \
-    pmu-mod \
+    gamepad-app \
     "
 
 IMAGE_FEATURES:append = " \
